@@ -112,7 +112,7 @@ fetch('https://recipesapi.kutaybekleric.com/recipes/1')
 ```
 ## Demo
 
-To be added.
+I made a Recipes App using this API. You can check it out [here](https://github.com/kutaui/recipe-app).
 
 
 ## Roadmap
