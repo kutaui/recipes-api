@@ -25,7 +25,13 @@ Contributions are highly needed and appreciated. Currently, there are around 10 
         "Recipe Tag 3",
         "Recipe Tag 4",
         "Recipe Tag 5"
-    ]
+    ],
+    "ingredients": [
+    "Ingredient 1",
+    "Ingredient 2",
+    "Ingredient 3",
+    "Ingredient 4",    
+    ],
 }
 ```
 ## API Reference
@@ -91,23 +97,33 @@ fetch('https://recipesapi.kutaybekleric.com/recipes/1')
 ```json
 
 {
-  "id": 1,
-  "name": "Spaghetti Bolognese",
-  "description": "Classic Italian dish with a rich tomato-based sauce and ground beef",
-  "image": "https://i.imgur.com/mivLRhO.jpeg",
-  "steps": [
-    "Cook the spaghetti according to package instructions.",
-    "In a large skillet, brown the ground beef over medium heat.",
-    "Add the onion, garlic, and carrot and cook until softened.",
-    "Stir in the tomato paste, canned tomatoes, and herbs.",
-    "Simmer for 20-30 minutes until the sauce has thickened.",
-    "Serve the spaghetti with the bolognese sauce on top."
-  ],
-  "tags": [
-    "Italian",
-    "Pasta",
-    "Dinner"
-  ]
+"id": 1,
+"name": "Spaghetti Bolognese",
+"description": "Classic Italian dish with a rich tomato-based sauce and ground beef",
+"image": "https://i.imgur.com/mivLRhO.jpeg",
+"steps": [
+"Cook the spaghetti according to package instructions.",
+"In a large skillet, brown the ground beef over medium heat.",
+"Add the onion, garlic, and carrot and cook until softened.",
+"Stir in the tomato paste, canned tomatoes, and herbs.",
+"Simmer for 20-30 minutes until the sauce has thickened.",
+"Serve the spaghetti with the bolognese sauce on top."
+],
+"tags": [
+"Italian",
+"Pasta",
+"Dinner"
+],
+"ingredients": [
+"Spaghetti, 1 pound",
+"Ground beef, 1 pound",
+"Onion, 1 chopped",
+"Garlic, 3 cloves minced",
+"Carrot, 1 chopped",
+"Tomato paste, 1 tablespoon",
+"Canned tomatoes, 28 ounces",
+"Dried herbs, 1 tablespoon, such as oregano and basil"
+]
 }
 ```
 ## Demo
