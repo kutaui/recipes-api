@@ -1,7 +1,7 @@
 
 # RecipesAPI
 
-RecipesAPI is a RESTful API that provides basic recipes. The API is built with Node.js and Express.js and uses Postgres. The data consist of; Name(string),Description(string),Image(string),Steps(array),Tags(array).
+RecipesAPI is a RESTful API that provides basic recipes. The API is built with Node.js and Express.js and uses Postgres. The data consist of; Name(string), Description(string), Image(string), Steps(array), Tags(array), Ingredients(array).
 ### DISCLAIMER:
 The recipes are dummy data and the purpose of this api is to be used in hobby projects. The recipes were made using chatgpt.
 ## Contribution
